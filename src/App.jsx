@@ -7,28 +7,34 @@ import Footer from "./Footer"
 
 
 
+import ScrollReveal from "scrollreveal"
+
+ScrollReveal().reveal('.headline');
+ScrollReveal().reveal('.tagline', { delay: 500 });
+ScrollReveal().reveal('.punchline', { delay: 2000 });
 
 function App(){
+ 
   
   return (
     <div>
       <Header/>
 
-      <div id="home" >
+      <div id="home" className="headline">
       <Apresentaçao/>
       </div>
 
-      <div id="stacks" >
+      <div id="stacks" className="tagline" >
         <br />
       <Stacks/>
       </div>
 
-      <div id="projetos">
+      <div id="projetos" className="tagline">
         <br />
         <Projetos/>
       </div>
       
-      <div id="contato" >
+      <div id="contato" className="headline">
         <br />
         <br />
         <Contato/>

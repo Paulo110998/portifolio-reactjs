@@ -1,5 +1,6 @@
 import Dev from "./img/dev.png";
 import Circulo from './img/circulo.png'
+import {BsFillArrowDownSquareFill} from 'react-icons/bs'
 
 import ScrollReveal from "scrollreveal";
 
@@ -24,8 +25,8 @@ function Apresentaçao (){
             <h1 className="headline" >Paulo Alves</h1>
                 <p className="full">Desenvolvedor Back-end</p>
                 <br />
-                <h3 className="headline">Olá!! Bem-vindo ao meu portifólio!! Vou te contar um pouco sobre mim. Constumo dizer que sou desenvolvedor back-end e utilizo a linguagem python com o framework django para desenvolvimento web. <br /><br /> 
-                Sou um cara apaixonado por tecnologia e além de python, também possuo algumas outras stacks que você verá logo abaixo.</h3>
+                <h3 className="headline">Olá!! Bem-vindo ao meu portifólio!! Vou te contar um pouco sobre mim. Sou desenvolvedor back-end e utilizo a linguagem python com o framework django para desenvolvimento web. <br /><br /> 
+                Sou um cara apaixonado por tecnologia e além de python, também possuo algumas outras stacks que você verá logo abaixo. </h3>
                 <br />
                 <br />
                 <br />
