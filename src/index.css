@@ -133,6 +133,7 @@ nav {
     height: auto;
     
    }
+   
    .circulo{max-width: 100%; width: 30%;}
 
    
@@ -239,7 +240,7 @@ svg{
   margin-top: -100px;
   margin-left: 40%;
   background-image: url("./img/circulo.png");
-  animation: load 2s infinite linear;
+  animation: load 5s infinite linear;
  }
 
 
@@ -293,6 +294,13 @@ li img{width: 71px; height: 67px; }
 }
 .redes-sociais{
   margin-right: 52% ;
+}
+.lets_code{
+  height: 150px;
+  width: 160px;
+  margin-top: -150px;
+  margin-right: auto;
+  margin-left: 55%;
 }
 
 /* CRIANDO VARIÁVEIS DE COR PARA O FOOTER */
