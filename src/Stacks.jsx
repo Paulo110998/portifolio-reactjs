@@ -25,6 +25,8 @@ ScrollReveal().reveal('.tagline', { delay: 200 });
 function Stacks(){
     return(
         <div className="stacks">
+          <br />
+          <br />
            <h1 className="h1-stacks">Stacks <BiCodeBlock/> </h1>
            <br />
             <ul className="card-list">
