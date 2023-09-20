@@ -29,9 +29,11 @@ body{
   
 }
 
-header{
+
+
+header {
     margin-top: -1px; /* Margem do topo*/
-    padding: 1.0rem 0%; /* Altura da borda*/
+    padding: 2.0rem 0%; /* Altura da borda*/
     position: fixed; /* Fixar */
     top:0; left: 0; right: 0; /* Topo, direita, esquerda */
     display:inline-flex;
@@ -45,94 +47,68 @@ nav {
   display: flex;
   align-items: center;
 }
-.menu.active {
-  transform: translateX(0);
-}
-
-.close-menu {
-  display: none; /* Inicialmente oculto */
-  background-color: transparent;
-  border: none;
-  color: white;
-  font-size: 20px;
-  margin-left: -80px;
-  cursor: pointer;
-}
-
-/* Estilos para quando o menu está ativo */
-.menu.active + .close-menu {
-  display: block; /* Exibir o botão "close" */
-}
-
-
-.hamburger-menu {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-}
-  
-.line {
-  width: 25px;
-  height: 3px;
-  background-color: rgb(250, 241, 241);
-  margin: 5px;
-  margin-left: -155px;
-}
-  
 .menu {
-  display:inline;
+  display: block;
+  flex-direction: column;
+  margin-top: -20px;
+  position: absolute;
+
+}
+
+.menu.open {
+  display: flex;
+}
+
+.menu ul {
   list-style: none;
-  margin: 0;
   padding: 0;
 }
-  
+
 .menu li {
-  margin-right:20px;
-  margin-left: 20px;
+  padding: 10px;
+}
+
+.menu a {
   color: white;
+  text-decoration: none;
 }
-  
-.menu li:last-child {
-  margin-right: 0;
+
+.menu-button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: none;
 }
+
+
   
   @media (max-width: 768px) {
-    .hamburger-menu {
-      display: flex;
-    }
-    
-    .menu {
-      display: none;
-      flex-direction: column;
-      position: absolute;
-      top: 60px;
+    .menu-burg{width: 150px; height: 25px;}
+    .botao-fechar{width: 100px; height: 21px;}
+    .menu{
+      margin-top: 15px; 
+      display:none;
+      top: 50px;
       left: 0;
-      width: 40%;
-      background-image: linear-gradient(to top, #000000 0%, #000000 100%);
+      width: 100%;
+      box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.2);
+      background: rgba(1, 1, 1, 0.6);
+      backdrop-filter: blur(5px);
       padding: 20px;
-    }
-    
-    .menu li {
-      margin-right: 0;
-      margin-bottom: 10px;
-      
       
     }
-    
-    .menu li:last-child {
-      margin-bottom: 0;
-      
+    .menu-button {
+      display: block;
+      margin-left: -250px;
     }
-    
-    .menu li a:link {
-      color: #0c0c0c;
-      font-size: 18px;
-      
+  
+    nav {
+      display: none;
     }
-    
-    .menu.active {
-      display: flex;
-      
+  
+    nav.open {
+      display: block;
     }
     .projetos{width: 100%;}
     .container{
@@ -253,7 +229,7 @@ svg{
  
   
 }
-
+.menu-toggle{display: none;}
 
 
 @keyframes load{
