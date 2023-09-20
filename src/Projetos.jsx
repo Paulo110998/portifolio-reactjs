@@ -44,12 +44,12 @@ function Projetos(){
               <p className="descriçao5">Stacks:</p>
               <p className="descriçao6"><SiDjango/>  <SiPython/>  <CgDigitalocean/>  <AiFillGithub/>  <BsGit/>  <ImHtmlFive/> <ImCss3/> <IoLogoJavascript/> <BsFillBootstrapFill/>  <GrMysql/> </p>
               <br />
-              <a href="https://brasilportugalinvest360.com/">Acesse: Invest360º <CgBrowser/></a>
+              <a href="https://brasilportugalinvest360.com/" target="_blank">Acesse: Invest360º <CgBrowser/></a>
             </div>
           </li>
         </ul></a>
 
-        <a href="https://github.com/Paulo110998/portifolio-reactjs.git"><ul className="card-list">
+        <a href="https://github.com/Paulo110998/portifolio-reactjs.git" target="_blank"><ul className="card-list">
           <li className="list-cards" >
             <div class="card">
               <br />
@@ -64,7 +64,7 @@ function Projetos(){
               <p className="descriçao5">Stacks:</p>
               <p className="descriçao6" ><FaReact/></p>
               <br />
-              <a href="">Acesse: Repositório  <AiFillGithub/></a>
+              <a href="https://github.com/Paulo110998/portifolio-reactjs.git" target="_blank">Acesse: Repositório  <AiFillGithub/></a>
             </div>
           </li>
         </ul></a>
@@ -84,7 +84,7 @@ function Projetos(){
               <p className="descriçao5">Stacks:</p>
               <p className="descriçao6" ><SiDjango/>  <SiPython/>  <AiFillGithub/>  <BsGit/>  <ImHtmlFive/> <ImCss3/> <IoLogoJavascript/> <BsFillBootstrapFill/>  <GrMysql/></p>
               <br />
-              <a href="https://github.com/Paulo110998/yours_projects">Acesse: Repositório <AiFillGithub/></a>
+              <a href="https://github.com/Paulo110998/yours_projects" target="_blank">Acesse: Repositório <AiFillGithub/></a>
             </div>
           </li>
         </ul></a>
