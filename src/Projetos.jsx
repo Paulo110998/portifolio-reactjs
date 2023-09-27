@@ -69,22 +69,22 @@ function Projetos(){
           </li>
         </ul></a>
 
-        <a href="https://github.com/Paulo110998/yours_projects" target="_blank"><ul className="card-list">
+        <a href="https://clownfish-app-jitiq.ondigitalocean.app/" target="_blank"><ul className="card-list">
           <li className="list-cards" >
             <div class="card">
               <br />
               <img src={Django} alt="" />
               <br />
            
-              <p className="descriçao1" ><b>Your Projects é um projeto demonstrativo, desenvolvido em python com django. Acesse o repositório para visualizar a estrutura MTV do django.</b></p>
+              <p className="descriçao1" ><b>Your Projects é uma aplicação web demonstrativa, desenvolvida em python com django. Acesse para visualizar a arquitetura MTV do django.</b></p>
               <p className="descriçao2" ></p>
               <p className="descriçao3" ></p>
               <p className="descriçao4" ></p>
               <br />
               <p className="descriçao5">Stacks:</p>
-              <p className="descriçao6" ><SiDjango/>  <SiPython/>  <AiFillGithub/>  <BsGit/>  <ImHtmlFive/> <ImCss3/> <IoLogoJavascript/> <BsFillBootstrapFill/>  <GrMysql/></p>
+              <p className="descriçao6" ><SiDjango/>  <SiPython/>  <CgDigitalocean/>  <AiFillGithub/>  <BsGit/>  <ImHtmlFive/> <ImCss3/> <IoLogoJavascript/> <BsFillBootstrapFill/>  <GrMysql/></p>
               <br />
-              <a href="https://github.com/Paulo110998/yours_projects" target="_blank">Acesse: Repositório <AiFillGithub/></a>
+              <a href="https://clownfish-app-jitiq.ondigitalocean.app/" target="_blank">Acesse: Your Projects <CgBrowser/></a>
             </div>
           </li>
         </ul></a>
