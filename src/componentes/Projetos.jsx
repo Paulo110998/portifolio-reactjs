@@ -1,4 +1,3 @@
-
 import Invest from "./img/projetos/logo-360-invest.png"
 import React from "./img/stacks/react.png"
 import Django from "./img/stacks/django.png"

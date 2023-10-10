@@ -1,9 +1,9 @@
-import Header from "./header"
-import Apresentaçao from "./Apresentaçao"
-import Stacks from "./Stacks"
-import Projetos from "./Projetos"
-import Contato from "./contato"
-import Footer from "./Footer"
+import Header from "./componentes/header"
+import Apresentaçao from "./componentes/Apresentaçao"
+import Stacks from "./componentes/Stacks"
+import Projetos from "./componentes/Projetos"
+import Contato from "./componentes/contato"
+import Footer from "./componentes/Footer"
 
 
 
@@ -13,7 +13,6 @@ function App(){
     <div>
       <Header />
       
-
       <div id="home" >
       <Apresentaçao/>
       </div>
@@ -22,9 +21,7 @@ function App(){
          <Stacks/>
       </div>
       
-      
-      
-      
+
 
       <div id="projetos" >
         <br />
