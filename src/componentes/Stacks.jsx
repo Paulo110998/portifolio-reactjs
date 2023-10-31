@@ -70,7 +70,7 @@ function Stacks(){
               </li>
               <li className="list-card">
                 <img src={Csharp} alt="" />
-                <p>C Sharp</p>
+                <p>C#</p>
               </li>
               <li className="list-card">
                 <img src={Sql} alt="" />
