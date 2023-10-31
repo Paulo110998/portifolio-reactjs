@@ -21,8 +21,7 @@ function App(){
          <Stacks/>
       </div>
       
-
-
+     
       <div id="projetos" >
         <br />
         <br />
