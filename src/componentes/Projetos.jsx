@@ -28,7 +28,7 @@ ScrollReveal().reveal('.tagline', { delay: 200 });
 function Projetos(){
     return(
         <div className="projetos">
-            <h1 className="h1-projetos">Projetos <GoProjectSymlink/></h1>
+            <h1 className="h1-projetos">Projects <GoProjectSymlink/></h1>
             <br />
           <a target="_blank" href="https://brasilportugalinvest360.com/"><ul className="card-list">
           <li className="list-cards" >
@@ -37,7 +37,7 @@ function Projetos(){
               <img  className="projetos-img" src={Invest} alt="" />
               <p className="descriçao1" ><b></b></p>
               <br />
-              <p className="descriçao2"><b>O Invest360 é uma aplicação web com foco no mercado imobiliário luso-brasileiro.
+              <p className="descriçao2"><b>O Invest360 é uma aplicação web com foco em investimentos no mercado luso-brasileiro.
                Desenvolvida em python com django, e publicada em cloud na DigitalOcean.</b></p>
               <br />
               <p className="descriçao5">Stacks:</p>
@@ -84,6 +84,27 @@ function Projetos(){
               <p className="descriçao6" ><SiDjango/>  <SiPython/>  <CgDigitalocean/>  <AiFillGithub/>  <BsGit/>  <ImHtmlFive/> <ImCss3/> <IoLogoJavascript/> <BsFillBootstrapFill/>  <GrMysql/></p>
               <br />
               <a href="https://clownfish-app-jitiq.ondigitalocean.app/" target="_blank">Acesse: Your Projects <CgBrowser/></a>
+            </div>
+          </li>
+        </ul></a>
+
+        <a href="https://jadsonbitencourtt.com.br/" target="_blank"><ul className="card-list">
+          <li className="list-cards" >
+            <div class="card">
+              <br />
+              <br />
+              <h3>Jadson Bittencourt</h3>
+              <br />
+           
+              <p className="descriçao1" ><b>Site desenvolvido em Html5, Css3 e Javascript e publicado no bohr.io, para o palestrante Jadson Bittencourt.</b></p>
+              <p className="descriçao2" ></p>
+              <p className="descriçao3" ></p>
+              <p className="descriçao4" ></p>
+              <br />
+              <p className="descriçao5">Stacks:</p>
+              <p className="descriçao6" > <AiFillGithub/>  <BsGit/>  <ImHtmlFive/> <ImCss3/> <IoLogoJavascript/></p>
+              <br />
+              <a href="https://jadsonbitencourtt.com.br/" target="_blank">Acesse: jadsonbitencourtt.com.br <CgBrowser/></a>
             </div>
           </li>
         </ul></a>

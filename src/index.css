@@ -30,10 +30,9 @@ body{
 }
 
 
-
 header {
     margin-top: -1px; /* Margem do topo*/
-    padding: 2.0rem 0%; /* Altura da borda*/
+    padding: 1.7rem 0%; /* Altura da borda*/
     position: fixed; /* Fixar */
     top:0; left: 0; right: 0; /* Topo, direita, esquerda */
     display:inline-flex;
