@@ -15,6 +15,7 @@ import {GrMysql} from "react-icons/gr"
 
 import {CgBrowser} from "react-icons/cg"
 import {FaReact} from "react-icons/fa"
+import {RxVercelLogo} from "react-icons/rx"
 
 import {GoProjectSymlink} from 'react-icons/go'
 
@@ -55,13 +56,13 @@ function Projetos(){
               <img src={React} height={5} alt="" />
               <br />
               <br />
-              <p className="descriçao1" ><b>Esse portifólio é desenvolvido em React. Acesse o repositório demonstrativo no Github. </b></p>
+              <p className="descriçao1" ><b>Esse portifólio é desenvolvido em React e publicado na Vercel. Acesse o repositório demonstrativo no Github. </b></p>
               <p className="descriçao2" ></p>
               <p className="descriçao3" ></p>
               <p className="descriçao4" ></p>
               <br />
               <p className="descriçao5">Stacks:</p>
-              <p className="descriçao6" ><FaReact/></p>
+              <p className="descriçao6" ><FaReact/> <RxVercelLogo/> </p>
               <br />
               <a href="https://github.com/Paulo110998/portifolio-reactjs.git" target="_blank">Acesse: Repositório  <AiFillGithub/></a>
             </div>
