@@ -1,6 +1,7 @@
 import Invest from "./img/projetos/logo-360-invest.png"
 import React from "./img/stacks/react.png"
 import Django from "./img/stacks/django.png"
+import Csharp from "./img/stacks/csharp.png"
 
 import {SiDjango} from "react-icons/si"
 import {SiPython} from "react-icons/si"
@@ -16,6 +17,8 @@ import {GrMysql} from "react-icons/gr"
 import {CgBrowser} from "react-icons/cg"
 import {FaReact} from "react-icons/fa"
 import {RxVercelLogo} from "react-icons/rx"
+import { TbBrandCSharp } from "react-icons/tb";
+import { DiDotnet } from "react-icons/di";
 
 import {GoProjectSymlink} from 'react-icons/go'
 
@@ -85,6 +88,26 @@ function Projetos(){
               <p className="descriçao6" ><SiDjango/>  <SiPython/>  <CgDigitalocean/>  <AiFillGithub/>  <BsGit/>  <ImHtmlFive/> <ImCss3/> <IoLogoJavascript/> <BsFillBootstrapFill/>  <GrMysql/></p>
               <br />
               <a href="https://clownfish-app-jitiq.ondigitalocean.app/" target="_blank">Acesse: Your Projects <CgBrowser/></a>
+            </div>
+          </li>
+        </ul></a>
+
+        <a href="https://github.com/Paulo110998/Music_api_consumption.git" target="_blank"><ul className="card-list">
+          <li className="list-cards" >
+            <div class="card">
+              <br />
+              <img src={Csharp} alt="" />
+              <br />
+           
+              <p className="descriçao1" ><b>Music API consumption</b></p>
+              <p className="descriçao2" ></p>
+              <p className="descriçao3" >O projeto exibe a desserialização e serialização de dados de uma API de música, o uso do HttpClient (.NET) e a criação de arquivos em C#.</p>
+              <p className="descriçao4" ></p>
+              <br />
+              <p className="descriçao5">Stacks:</p>
+              <p className="descriçao6" ><TbBrandCSharp/> <DiDotnet /> <AiFillGithub/>  <BsGit/> </p>
+              <br />
+              <a href="https://github.com/Paulo110998/Music_api_consumption.git" target="_blank">Acesse: Repositório <AiFillGithub/></a>
             </div>
           </li>
         </ul></a>

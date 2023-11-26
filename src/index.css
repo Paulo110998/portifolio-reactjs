@@ -119,7 +119,7 @@ nav {
     max-width: 90%;  margin-top: 40px;
    }
    .quadrado img{
-    max-width: 100%;
+    max-width: 101%;
    }
    .h1-stacks{
     margin-left: auto;
@@ -290,7 +290,9 @@ li img{width: 71px; height: 67px; }
 }
 .descriçao2{text-align: center;}
 .descriçao6{margin-top: 5px;}
-
+.descriçao3{
+  margin-top: 3px;
+}
 .h1-contato, .h1-stacks{
   margin-top: 100px;
   margin-right: 50%;
