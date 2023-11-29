@@ -29,7 +29,7 @@ function Stacks(){
         <div className="stacks">
           <br />
           <br />
-           <h1 className="h1-stacks">Stacks <BiCodeBlock/> </h1>
+           <h1 className="h1-stacks">Dev Stacks<BiCodeBlock/> </h1>
            <br />
             <ul className="card-list">
               <li className="list-card">
