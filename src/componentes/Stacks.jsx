@@ -8,6 +8,7 @@ import Github from "./img/stacks/github.png"
 import Python from "./img/stacks/python.png"
 import Django from "./img/stacks/django.png"
 import Csharp from "./img/stacks/csharp.png"
+import Dotnet from "./img/stacks/dotnet_logo.png"
 import Sql from "./img/stacks/sql-server.png"
 import Mysql from "./img/stacks/mysql.png"
 import DigitalOcean from "./img/stacks/digitalocean.png"
@@ -29,7 +30,7 @@ function Stacks(){
         <div className="stacks">
           <br />
           <br />
-           <h1 className="h1-stacks">Dev Stacks<BiCodeBlock/> </h1>
+           <h1 className="h1-stacks">Stacks <BiCodeBlock/> </h1>
            <br />
             <ul className="card-list">
               <li className="list-card">
@@ -71,6 +72,10 @@ function Stacks(){
               <li className="list-card">
                 <img src={Csharp} alt="" />
                 <p>C#</p>
+              </li>
+              <li className="list-card">
+                <img src={Dotnet} alt="" />
+                <p>.Net</p>
               </li>
               <li className="list-card">
                 <img src={Sql} alt="" />
