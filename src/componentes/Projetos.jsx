@@ -102,7 +102,7 @@ function Projetos(){
            
               <p className="descriçao1" ><b>Music API consumption</b></p>
               <p className="descriçao2" ></p>
-              <p className="descriçao3" >O projeto exibe a desserialização e serialização de dados de uma API de música, o uso do HttpClient (.NET) e a criação de arquivos em C#.</p>
+              <p className="descriçao3" ><b>O projeto exibe a desserialização e serialização de dados de uma API de música, o uso do HttpClient (.NET) e a criação de arquivos em C#.</b></p>
               <p className="descriçao4" ></p>
               <br />
               <p className="descriçao5">Stacks:</p>
@@ -112,6 +112,24 @@ function Projetos(){
             </div>
           </li>
         </ul></a>
+
+        <a href="https://github.com/Paulo110998/Web_API_streaming" target="_blank"><ul className="card-list">
+          <li className="list-cards" >
+            <div class="card">
+              <img src={Dotnet} alt="" />
+              <p className="descriçao1" ><b>Web API Streaming</b></p>
+              <p className="descriçao2" ></p>
+              <p className="descriçao3" ><b>O projeto é um modelo prático de API Restful MVC. Temos a utilização do EntityFramework com Mysql, e também o AutoMapper com mapeamento de DTOs.</b></p>
+              <p className="descriçao4" ></p>
+              <br />
+              <p className="descriçao5">Stacks:</p>
+              <p className="descriçao6" ><TbBrandCSharp/> <DiDotnet /> <AiFillGithub/>  <BsGit/> <GrMysql/> </p>
+              <br />
+              <a href="https://github.com/Paulo110998/Music_api_consumption.git" target="_blank">Acesse: Repositório <AiFillGithub/></a>
+            </div>
+          </li>
+        </ul></a>
+
 
         <a href="https://jadsonbitencourtt.com.br/" target="_blank"><ul className="card-list">
           <li className="list-cards" >
