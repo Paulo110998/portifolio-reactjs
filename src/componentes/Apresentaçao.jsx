@@ -1,4 +1,4 @@
-import Dev from "./img/dev.png";
+import Dev from "./img/dev..-removebg-preview.png";
 import Circulo from './img/circulo.png'
 import {BsFillArrowDownSquareFill} from 'react-icons/bs'
 

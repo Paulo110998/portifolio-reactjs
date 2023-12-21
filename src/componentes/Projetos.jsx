@@ -2,6 +2,7 @@ import Invest from "./img/projetos/logo-360-invest.png"
 import React from "./img/stacks/react.png"
 import Django from "./img/stacks/django.png"
 import Csharp from "./img/stacks/csharp.png"
+import Dotnet from "./img/stacks/dotnet_logo.png"
 
 import {SiDjango} from "react-icons/si"
 import {SiPython} from "react-icons/si"
@@ -96,7 +97,7 @@ function Projetos(){
           <li className="list-cards" >
             <div class="card">
               <br />
-              <img src={Csharp} alt="" />
+              <img src={Dotnet} alt="" />
               <br />
            
               <p className="descriçao1" ><b>Music API consumption</b></p>

@@ -41,7 +41,9 @@ header {
     background: rgba(1, 1, 1, 0.6);
     backdrop-filter: blur(5px);
 }
-  
+.github_icon{
+  font-size: 30px;
+}
 nav {
   display: flex;
   align-items: center;
@@ -215,7 +217,7 @@ svg{
   
 }
 .quadrado img{
-  width: 390px;
+  width: 370px;
   height: 380px;
   border-radius: 10px;
   margin-top: 90px;
