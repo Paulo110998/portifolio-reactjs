@@ -8,11 +8,13 @@ import Github from "./img/stacks/github.png"
 import Python from "./img/stacks/python.png"
 import Django from "./img/stacks/django.png"
 import Csharp from "./img/stacks/csharp.png"
-import Dotnet from "./img/stacks/dotnet_logo.png"
+import Dotnet from "./img/stacks/dotnet-logo2.png"
 import Sql from "./img/stacks/sql-server.png"
 import Mysql from "./img/stacks/mysql.png"
 import DigitalOcean from "./img/stacks/digitalocean.png"
 import Heroku from "./img/stacks/heroku.png"
+import Vscode from "./img/stacks/vscode.png"
+import VisualStudio from "./img/stacks/visualstudio.png"
 
 import {BiCodeBlock} from 'react-icons/bi'
 
@@ -75,7 +77,7 @@ function Stacks(){
               </li>
               <li className="list-card">
                 <img src={Dotnet} alt="" />
-                <p>.Net</p>
+                <p>Dotnet</p>
               </li>
               <li className="list-card">
                 <img src={Sql} alt="" />
@@ -92,6 +94,15 @@ function Stacks(){
               <li className="list-card">
                 <img src={Heroku} alt="" />
                 <p>Heroku</p>
+              </li>
+              <br />
+              <li className="list-card">
+                <img src={Vscode} alt="" />
+                <p>VSCode</p>
+              </li>
+              <li className="list-card">
+                <img src={VisualStudio} alt="" />
+                <p>Visual Studio</p>
               </li>
               
            </ul>

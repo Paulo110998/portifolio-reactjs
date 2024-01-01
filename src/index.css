@@ -262,11 +262,10 @@ svg{
   justify-content: center;
   align-items: center;
   margin-left: 197px;
-  
-  
+ 
 }
 
-.stacks{margin-top: -170px; }
+.stacks{margin-top: -170px; margin-left: auto; margin-right: auto; }
 
 li img{width: 71px; height: 67px; }
 

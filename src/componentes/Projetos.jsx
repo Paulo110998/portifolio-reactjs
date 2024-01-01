@@ -2,7 +2,7 @@ import Invest from "./img/projetos/logo-360-invest.png"
 import React from "./img/stacks/react.png"
 import Django from "./img/stacks/django.png"
 import Csharp from "./img/stacks/csharp.png"
-import Dotnet from "./img/stacks/dotnet_logo.png"
+import Dotnet from "./img/stacks/dotnet-logo2.png"
 
 import {SiDjango} from "react-icons/si"
 import {SiPython} from "react-icons/si"
@@ -113,7 +113,7 @@ function Projetos(){
         <a href="https://github.com/Paulo110998/Music_api_consumption.git" target="_blank"><ul className="card-list">
           <li className="list-cards" >
             <div class="card">
-              
+              <br />
               <img src={Dotnet} alt="" />
                        
               <p className="descriçao1" ><b>Music API consumption</b></p>
@@ -132,6 +132,7 @@ function Projetos(){
         <a href="https://github.com/Paulo110998/Web_API_streaming" target="_blank"><ul className="card-list">
           <li className="list-cards" >
             <div class="card">
+              <br />
               <img src={Dotnet} alt="" />
               <p className="descriçao1" ><b>Web API Streaming</b></p>
               <p className="descriçao3" >Um modelo prático de API Rest MVC. Com a utilização do EntityFramework e Mysql, relacionamento de entidades e consultas com LINQ, e também o mapeamento de DTOs.</p>
