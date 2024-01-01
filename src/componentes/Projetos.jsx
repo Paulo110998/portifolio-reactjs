@@ -37,15 +37,32 @@ function Projetos(){
         <div className="projetos">
             <h1 className="h1-projetos">Projects <GoProjectSymlink/></h1>
             <br />
+            <a href="https://github.com/Paulo110998/React_API_REST_Consumer" target="_blank"><ul className="card-list">
+          <li className="list-cards" >
+            <div class="card">
+              <br />
+              <img src={React} height={5} alt="" />
+              <br />
+              <p className="descriçao1" ><b>Consumo de API com React</b></p>
+              <p className="descriçao2" >O repositório exibe o consumo básico de uma API REST com React.js, utilizando a biblioteca axios.</p>
+              
+              <br />
+              <p className="descriçao5">Stacks:</p>
+              <p className="descriçao6" ><IoLogoJavascript/> <FaReact/> <RxVercelLogo/> </p>
+              <br />
+              <a href="https://github.com/Paulo110998/portifolio-reactjs.git" target="_blank"></a>
+            </div>
+          </li>
+        </ul></a>
+
          <a href="https://github.com/Paulo110998/portifolio-reactjs.git" target="_blank"><ul className="card-list">
           <li className="list-cards" >
             <div class="card">
               <br />
               <img src={React} height={5} alt="" />
               <br />
-              <br />
-              <p className="descriçao1" >Esse portifólio é desenvolvido em React e publicado na Vercel. Acesse o repositório demonstrativo no Github.</p>
-              <p className="descriçao2" ></p>
+              <p className="descriçao1" ><b>Portifólio</b></p>
+              <p className="descriçao2" >Esse portifólio é desenvolvido em React e publicado na Vercel. Acesse o repositório demonstrativo no Github.</p>
               
               <br />
               <p className="descriçao5">Stacks:</p>
@@ -61,7 +78,7 @@ function Projetos(){
             <div class="card">
               <br />
               <img  src={Django} alt="" />
-              <p className="descriçao1" ><b></b></p>
+              <p className="descriçao1" ><b>Invest 360º</b></p>
               <p className="descriçao2">O Invest360 é uma aplicação web com foco em investimentos no mercado luso-brasileiro.
                Desenvolvida em python com django, e publicada em cloud na DigitalOcean.</p>
               <br />
@@ -80,8 +97,8 @@ function Projetos(){
               <img src={Django} alt="" />
               <br />
            
-              <p className="descriçao1" >Your Projects é uma aplicação web demonstrativa, desenvolvida em python com django. Acesse para visualizar a arquitetura MTV do django.</p>
-              <p className="descriçao2" ></p>
+              <p className="descriçao1" ><b>Your Projects</b></p>
+              <p className="descriçao2" >Your Projects é uma aplicação web demonstrativa, desenvolvida em python com django. Acesse para visualizar a arquitetura MTV do django.</p>
               
               <br />
               <p className="descriçao5">Stacks:</p>
