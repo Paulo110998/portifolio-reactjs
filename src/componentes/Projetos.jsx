@@ -17,6 +17,7 @@ import {GrMysql} from "react-icons/gr"
 
 import {CgBrowser} from "react-icons/cg"
 import {FaReact} from "react-icons/fa"
+import { SiAxios } from "react-icons/si";
 import {RxVercelLogo} from "react-icons/rx"
 import { TbBrandCSharp } from "react-icons/tb";
 import { DiDotnet } from "react-icons/di";
@@ -48,7 +49,7 @@ function Projetos(){
               
               <br />
               <p className="descriçao5">Stacks:</p>
-              <p className="descriçao6" ><IoLogoJavascript/> <FaReact/> <RxVercelLogo/> </p>
+              <p className="descriçao6" ><IoLogoJavascript/> <FaReact/> <SiAxios /> </p>
               <br />
               <a href="https://github.com/Paulo110998/portifolio-reactjs.git" target="_blank"></a>
             </div>
