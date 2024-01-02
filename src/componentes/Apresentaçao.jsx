@@ -22,11 +22,13 @@ function Apresentaçao (){
 
             </div>
             <div className="quadrado" >
+                
             <h1 className="headline" >Paulo Alves</h1>
                 <p className="full">Desenvolvedor Back-end</p>
                 <br />
-                <h3 className="headline">Olá, bem-vindo ao meu portifólio! Irei te contar um pouco sobre mim. Sou desenvolvedor back-end e minhas pricipais stacks são a linguagem python com o framework django para desenvolvimento web. <br /><br /> 
-                Sou um cara apaixonado por tecnologia e além de python, também possuo algumas outras stacks que você verá logo abaixo. </h3>
+                <h3 className="headline">Olá, bem-vindo ao meu portifólio! Irei te contar um pouco sobre mim. Sou desenvolvedor web e atuo principalmente com backend, minha stack principal é Python/Django e C#/.NET para backend. 
+                Para integrações com frontend utilizo React.js & Bootstrap. <br /><br /> 
+                Sou um cara apaixonado por tecnologia e além dessas tecnologias citadas, também possuo algumas outras stacks que você verá logo abaixo. </h3>
                 <br />
                 <br />
                 <br />
