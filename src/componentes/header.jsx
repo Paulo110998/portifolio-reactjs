@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { CgCloseR } from 'react-icons/cg'
 import { AiOutlineMenu } from 'react-icons/ai'
-import {AiFillGithub} from "react-icons/ai"
+import { AiFillGithub } from "react-icons/ai"
 
 
 const Header = () => {
@@ -31,7 +31,7 @@ const Header = () => {
             <li><a href="#projetos" onClick={() => scrollToSection('projetos')}>Projects</a></li>
             <li><a href="#contato" onClick={() => scrollToSection('contato')}>Contact-Us</a></li>
             <li></li>
-            <h1><a href="https://github.com/Paulo110998"><AiFillGithub/></a> </h1>
+            <h1><a href="https://github.com/Paulo110998"><AiFillGithub /></a> </h1>
           </ul>
         </nav>
         <button className="menu-button" onClick={toggleMenu}>

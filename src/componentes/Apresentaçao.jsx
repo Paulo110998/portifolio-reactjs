@@ -1,6 +1,6 @@
 import Dev from "./img/dev..-removebg-preview.png";
 import Circulo from './img/circulo.png'
-import {BsFillArrowDownSquareFill} from 'react-icons/bs'
+import { BsFillArrowDownSquareFill } from 'react-icons/bs'
 
 import ScrollReveal from "scrollreveal";
 
@@ -11,39 +11,38 @@ ScrollReveal().reveal('.tagline', { delay: 200 });
 
 
 
-function Apresentaçao (){
-    return(
+function Apresentaçao() {
+    return (
         <div className="headline">
             <div className="quadrado" >
-            <img  src={Dev} alt="Dev" />
-            <br />
-            <br />
-               
+                <img src={Dev} alt="Dev" />
+                <br />
+                <br />
+
 
             </div>
             <div className="quadrado" >
-                
-            <h1 className="headline" >Paulo Alves</h1>
-                <p className="full">Desenvolvedor Back-end</p>
+
+                <h1 className="headline" >Paulo Alves</h1>
+                <p className="full">Desenvolvedor de Software</p>
                 <br />
-                <h3 className="headline">Olá, bem-vindo ao meu portifólio! Irei te contar um pouco sobre mim. Sou desenvolvedor web e atuo principalmente com backend, minha stack principal é Python/Django e C#/.NET para backend. 
-                Para integrações com frontend utilizo React.js & Bootstrap. <br /><br /> 
-                Sou um cara apaixonado por tecnologia e além dessas tecnologias citadas, também possuo algumas outras stacks que você verá logo abaixo. </h3>
+                <h3 className="headline">Olá, bem-vindo(a) ao meu portifólio; Vou te contar um pouco sobre mim. Sou
+                    Desenvolvedor de Software e um amante da tecnologia, tenho atuado nas áres de desenvolvimento web
+                    principalmente com backend, mas também possuo conhecimentos em tecnologias de frontend. 
+                    As principais stacks que utilizo são .NET(C#) & Django(Python) para backend
+                    e para integrações e consumos de API com frontend, utilizo React.js. 
+                    <br /><br />
+                    Logo abaixo, você terá mais detalhes de algumas outras tecnologias que também utilizo no dia-dia. </h3>
                 <br />
                 <br />
-                <br />
-                <br />
-                <br />
-                
-                
 
             </div>
             <div className="box-load">
-            <img className="circulo" src={Circulo} alt="" />
+                <img className="circulo" src={Circulo} alt="" />
             </div>
-           
-            
-            
+
+
+
         </div>
     )
 }
