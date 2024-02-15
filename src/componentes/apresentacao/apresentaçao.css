@@ -1,0 +1,57 @@
+@media(max-width:768px) {
+  .quadrado {
+    max-width: 90%;
+    margin-top: 40px;
+    text-align: justify;
+  }
+
+  .quadrado img {
+    max-width: 101%;
+  }
+
+  .circulo {
+    max-width: 100%;
+    width: 30%;
+  }
+
+}
+
+.quadrado {
+  border: 5px solid transparent;
+  width: 500px;
+  height: 390px;
+  display: inline-block;
+
+}
+
+.quadrado img {
+  width: 370px;
+  height: 380px;
+  border-radius: 10px;
+  margin-top: 90px;
+  box-shadow: 0 1.1rem 1rem rgba(230, 213, 213, 0.5);
+  backdrop-filter: blur(0.1px);
+
+
+}
+
+.quadrado h3,
+h2 {
+  text-align: justify;
+
+
+
+}
+
+@keyframes load {
+  to {
+    transform: rotate(360deg)
+  }
+}
+
+.circulo {
+  margin-top: -40px;
+  margin-left: 40%;
+  background-image: url("./img/circulo.png");
+  animation: load 5s infinite linear;
+}

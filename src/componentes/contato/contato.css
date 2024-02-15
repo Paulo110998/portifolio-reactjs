@@ -1,0 +1,27 @@
+@media(max-width:768px){
+    
+}
+
+.h1-contato {
+    margin-top: 50px;
+    margin-right: 50%;
+  }
+  
+  
+.redes-sociais {
+    margin-right: 50%;
+  }
+  
+  .clickme {
+    width: 100px;
+    margin-right: 45%;
+    margin-top: -10px;
+  }
+  
+  .lets_code {
+    height: 150px;
+    width: 160px;
+    margin-top: -170px;
+    margin-right: auto;
+    margin-left: 55%;
+  }

@@ -1,42 +1,42 @@
-import Header from "./componentes/header"
-import Apresentaçao from "./componentes/Apresentaçao"
-import Stacks from "./componentes/Stacks"
-import Projetos from "./componentes/Projetos"
-import Contato from "./componentes/contato"
-import Footer from "./componentes/Footer"
+import Header from "./componentes/header/Header"
+import Apresentaçao from "./componentes//apresentacao/Apresentaçao"
+import Stacks from "./componentes/stacks/Stacks"
+//import Projetos from "./componentes/projetos/Projetos"
+import SlideProjetoss from "./componentes/projetos/SlideProjetos"
+import Contato from "./componentes/contato/Contato"
+import Footer from "./componentes/footer/Footer"
 
 
 
-function App(){
-    
+function App() {
   return (
     <div>
       <Header />
-      
+
       <div id="home" >
-      <Apresentaçao/>
+        <Apresentaçao />
       </div>
-       
+
       <div id="stacks" >
-         <Stacks/>
+        <Stacks />
       </div>
-      
-     
+
+
       <div id="projetos" >
         <br />
         <br />
-        <Projetos/>
+        <SlideProjetoss />
       </div>
-      
+
       <div id="contato">
         <br />
         <br />
-        <Contato/>
+        <Contato />
       </div>
 
-      <Footer/>
+      <Footer />
     </div>
-    
+
   )
 }
 

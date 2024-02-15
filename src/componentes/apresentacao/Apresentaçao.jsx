@@ -1,6 +1,7 @@
-import Dev from "./img/dev..-removebg-preview.png";
-import Circulo from './img/circulo.png'
-import { BsFillArrowDownSquareFill } from 'react-icons/bs'
+import Dev from "../img/dev..-removebg-preview.png";
+import Circulo from '../img/circulo.png'
+import "./apresentaçao.css"
+
 
 import ScrollReveal from "scrollreveal";
 
@@ -18,26 +19,26 @@ function Apresentaçao() {
                 <img src={Dev} alt="Dev" />
                 <br />
                 <br />
-
-
             </div>
+
             <div className="quadrado" >
 
                 <h1 className="headline" >Paulo Alves</h1>
                 <p className="full">Desenvolvedor de Software</p>
                 <br />
-                <h3 className="headline">Olá, bem-vindo(a) ao meu portifólio; Vou te contar um pouco sobre mim. Sou
-                    Desenvolvedor de Software e um amante da tecnologia, tenho atuado nas áres de desenvolvimento web
-                    principalmente com backend, mas também possuo conhecimentos em tecnologias de frontend. 
-                    As principais stacks que utilizo são .NET(C#) & Django(Python) para backend
-                    e para integrações e consumos de API com frontend, utilizo React.js. 
+                <h3 className="headline">Welcome to my portfolio; 
+                I'll tell you a little about myself. I am a Software Developer
+               and a lover of technology, I have worked in the areas of web development
+               mainly with backend, but I also have knowledge in frontend technologies. 
+               The main stacks I use are .NET(C#) & Django(Python) for backend and for integrations 
+               and API consumption with frontend, I use React.js.
                     <br /><br />
-                    Logo abaixo, você terá mais detalhes de algumas outras tecnologias que também utilizo no dia-dia. </h3>
+                    Below, you will find more details on some other technologies that I also use on a daily basis. </h3>
                 <br />
                 <br />
 
             </div>
-            <div className="box-load">
+            <div>
                 <img className="circulo" src={Circulo} alt="" />
             </div>
 

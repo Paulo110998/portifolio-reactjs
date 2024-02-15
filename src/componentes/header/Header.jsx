@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { CgCloseR } from 'react-icons/cg'
 import { AiOutlineMenu } from 'react-icons/ai'
-import { AiFillGithub } from "react-icons/ai"
+import { FaGithub } from "react-icons/fa6";
+import { IoLogoLinkedin } from "react-icons/io5";
+import "./header.css"
 
 
 const Header = () => {
@@ -24,14 +26,18 @@ const Header = () => {
     <div >
       <header>
         <nav className={`menu ${menuOpen ? 'open' : ''}`}>
-          <button className="menu-button" onClick={toggleMenu}><CgCloseR className="botao-fechar" /></button>
+          
           <ul className="menu-items">
+          <button className="menu-button" onClick={toggleMenu}><CgCloseR className="botao-fechar" /></button>
+          {/* <a href="#home" onClick={() => scrollToSection('home')}><li className="navh4">
+            Paulo Alves
+          </li></a> */}
             <li><a href="#home" onClick={() => scrollToSection('home')} >Home</a></li>
-            <li><a href="#stacks" onClick={() => scrollToSection('stacks')}>Stacks</a></li>
+            <li><a href="#stacks" onClick={() => scrollToSection('stacks')}>Technologies</a></li>
             <li><a href="#projetos" onClick={() => scrollToSection('projetos')}>Projects</a></li>
-            <li><a href="#contato" onClick={() => scrollToSection('contato')}>Contact-Us</a></li>
-            <li></li>
-            <h1><a href="https://github.com/Paulo110998"><AiFillGithub /></a> </h1>
+            <li><a href="#contato" onClick={() => scrollToSection('contato')}>Socials</a></li>  
+            <li><a href="https://www.linkedin.com/in/paulo-alves-76a9b6205/"><IoLogoLinkedin /></a> </li>
+            <li><a href="https://github.com/Paulo110998"><FaGithub /></a></li>
           </ul>
         </nav>
         <button className="menu-button" onClick={toggleMenu}>

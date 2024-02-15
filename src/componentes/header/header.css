@@ -1,0 +1,129 @@
+@media (max-width: 768px) {
+    
+    .menu-burg {
+        width: 150px;
+        height: 25px;
+      }
+      .botao-fechar {
+        width: 100px;
+        height: 21px;
+      }
+      .menu {
+        margin-top: 15px;
+        display: none;
+        flex-direction: column;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.2);
+        background: #0e0c0c;
+        backdrop-filter: blur(5px);
+        padding: 20px;
+    
+      }
+      .menu-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+     }
+      .menu-button {
+        display: block;
+        margin-left: -250px;
+      }
+      .navh4 {
+        font-size: 15px;
+     }
+    
+
+}
+
+
+header {
+    margin-top: -1px;
+    /* Margem do topo*/
+    padding: 2rem 0%;
+    /* Altura da borda*/
+    position: fixed;
+    /* Fixar */
+    top: 0;
+    left: 0;
+    right: 0;
+    /* Topo, direita, esquerda */
+    display: inline-flex;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    /* Espaço entre os itens*/
+    background-color: #0e0c0c;
+    backdrop-filter: blur(5px);
+    z-index: 1000;
+}
+
+.github_icon {
+    font-size: 30px;
+}
+
+
+
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: -23px;
+    position: absolute;
+    font-size: 22px;
+    justify-content: space-between;
+}
+
+
+.menu.open {
+    display: flex;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.menu li {
+    padding: 10px;
+    float: left;
+    display: block;
+    padding: 7px;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+    
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+.navh4 {
+    font-size: 22px;
+    
+ }
+
+ /* Listas menu*/
+
+  
+ 

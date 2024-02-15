@@ -1,37 +1,24 @@
-import Invest from "./img/projetos/logo-360-invest.png"
-import React from "./img/stacks/react.png"
-import Django from "./img/stacks/django.png"
-import Csharp from "./img/stacks/csharp.png"
-import Dotnet from "./img/stacks/dotnet-logo2.png"
-
+import React from "../img/stacks/react.png"
+import Django from "../img/stacks/django.png"
+import Dotnet from "../img/stacks/dotnet-logo2.png"
 import { SiDjango } from "react-icons/si"
 import { SiPython } from "react-icons/si"
 import { CgDigitalocean } from "react-icons/cg"
 import { AiFillGithub } from "react-icons/ai"
 import { BsGit } from "react-icons/bs"
-import { ImHtmlFive, ImOpt } from "react-icons/im"
+import { ImHtmlFive} from "react-icons/im"
 import { ImCss3 } from "react-icons/im"
 import { IoLogoJavascript } from "react-icons/io"
 import { BsFillBootstrapFill } from "react-icons/bs"
 import { GrMysql } from "react-icons/gr"
-
-import { CgBrowser } from "react-icons/cg"
 import { FaReact } from "react-icons/fa"
 import { SiAxios } from "react-icons/si";
 import { RxVercelLogo } from "react-icons/rx"
 import { TbBrandCSharp } from "react-icons/tb";
 import { DiDotnet } from "react-icons/di";
-
 import { GoProjectSymlink } from 'react-icons/go'
 
-import ScrollReveal from "scrollreveal";
-
-import { PiCursorClickBold } from "react-icons/pi";
-
-ScrollReveal({ reset: true });
-
-ScrollReveal().reveal('.projetos', { delay: 370 });
-ScrollReveal().reveal('.tagline', { delay: 200 });
+import "./projetos.css"
 
 function Projetos() {
   return (
@@ -39,9 +26,9 @@ function Projetos() {
       <br />
       <h1 className="h1-projetos">Projects <GoProjectSymlink /></h1>
       <br />
-      <a href="https://www.lucasvieiracademybjj.com.br/" target="_blank"><ul className="card-list">
+      <a href="https://www.lucasvieiracademybjj.com.br/" target="_blank" rel="noreferrer"><ul className="card-list">
         <li className="list-cards" >
-          <div class="card">
+          <div className="card">
             <br />
             <img src={React} height={5} alt="" />
             <br />
@@ -52,14 +39,14 @@ function Projetos() {
             <p className="descriçao5">Stacks:</p>
             <p className="descriçao6" ><FaReact /> <IoLogoJavascript /> <ImHtmlFive /> <ImCss3 />  <BsGit />  <AiFillGithub />  <RxVercelLogo /> </p>
             <br />
-            <a href="https://github.com/Paulo110998/portifolio-reactjs.git" target="_blank"></a>
+            <a href="https://github.com/Paulo110998/portifolio-reactjs.git" target="_blank" rel="noreferrer"></a>
           </div>
         </li>
       </ul></a>
 
-      <a href="https://github.com/Paulo110998/React_API_REST_Consumer" target="_blank"><ul className="card-list">
+      <a href="https://github.com/Paulo110998/React_API_REST_Consumer" target="_blank" rel="noreferrer"><ul className="card-list">
         <li className="list-cards" >
-          <div class="card">
+          <div className="card">
             <br />
             <img src={React} height={5} alt="" />
             <br />
@@ -70,32 +57,14 @@ function Projetos() {
             <p className="descriçao5">Stacks:</p>
             <p className="descriçao6" ><FaReact /> <IoLogoJavascript />  <SiAxios /> <BsGit /> <AiFillGithub /> </p>
             <br />
-            <a href="https://github.com/Paulo110998/portifolio-reactjs.git" target="_blank"></a>
+            <a href="https://github.com/Paulo110998/portifolio-reactjs.git" target="_blank" rel="noreferrer"></a>
           </div>
         </li>
       </ul></a>
 
-      {/* <a href="https://github.com/Paulo110998/portifolio-reactjs.git" target="_blank"><ul className="card-list">
+      <a target="_blank" rel="noreferrer" href="https://brasilportugalinvest360.com/"><ul className="card-list">
         <li className="list-cards" >
-          <div class="card">
-            <br />
-            <img src={React} height={5} alt="" />
-            <br />
-            <p className="descriçao1" ><b>Portifólio</b></p>
-            <p className="descriçao2" >Esse portifólio é desenvolvido em React e publicado na Vercel. Acesse o repositório demonstrativo no Github.</p>
-
-            <br />
-            <p className="descriçao5">Stacks:</p>
-            <p className="descriçao6" ><IoLogoJavascript /> <FaReact /> <RxVercelLogo /> </p>
-            <br />
-            <a href="https://github.com/Paulo110998/portifolio-reactjs.git" target="_blank"></a>
-          </div>
-        </li>
-      </ul></a> */}
-
-      <a target="_blank" href="https://brasilportugalinvest360.com/"><ul className="card-list">
-        <li className="list-cards" >
-          <div class="card">
+          <div className="card">
             <br />
             <img src={Django} alt="" />
             <p className="descriçao1" ><b>Invest 360º</b></p>
@@ -105,14 +74,14 @@ function Projetos() {
             <p className="descriçao5">Stacks:</p>
             <p className="descriçao6"><SiDjango />  <SiPython />  <CgDigitalocean />  <AiFillGithub />  <BsGit />  <ImHtmlFive /> <ImCss3 /> <IoLogoJavascript /> <BsFillBootstrapFill />  <GrMysql /> </p>
             <br />
-            <a href="https://brasilportugalinvest360.com/" target="_blank"></a>
+            <a href="https://brasilportugalinvest360.com/" target="_blank" rel="noreferrer"></a>
           </div>
         </li>
       </ul></a>
 
-      <a href="https://clownfish-app-jitiq.ondigitalocean.app/" target="_blank"><ul className="card-list">
+      <a href="https://clownfish-app-jitiq.ondigitalocean.app/" target="_blank" rel="noreferrer"><ul className="card-list">
         <li className="list-cards" >
-          <div class="card">
+          <div className="card">
             <br />
             <img src={Django} alt="" />
             <br />
@@ -124,14 +93,14 @@ function Projetos() {
             <p className="descriçao5">Stacks:</p>
             <p className="descriçao6" ><SiDjango />  <SiPython />  <CgDigitalocean />  <AiFillGithub />  <BsGit />  <ImHtmlFive /> <ImCss3 /> <IoLogoJavascript /> <BsFillBootstrapFill />  <GrMysql /></p>
             <br />
-            <a href="https://clownfish-app-jitiq.ondigitalocean.app/" target="_blank"></a>
+            <a href="https://clownfish-app-jitiq.ondigitalocean.app/" target="_blank" rel="noreferrer"></a>
           </div>
         </li>
       </ul></a>
 
-      <a href="https://github.com/Paulo110998/Music_api_consumption.git" target="_blank"><ul className="card-list">
+      <a href="https://github.com/Paulo110998/Music_api_consumption.git" target="_blank" rel="noreferrer"><ul className="card-list">
         <li className="list-cards" >
-          <div class="card">
+          <div className="card">
             <br />
             <img src={Dotnet} alt="" />
 
@@ -143,14 +112,14 @@ function Projetos() {
             <p className="descriçao5">Stacks:</p>
             <p className="descriçao6" ><TbBrandCSharp /> <DiDotnet /> <AiFillGithub />  <BsGit /> </p>
             <br />
-            <a href="https://github.com/Paulo110998/Music_api_consumption.git" target="_blank"></a>
+            <a href="https://github.com/Paulo110998/Music_api_consumption.git" target="_blank" rel="noreferrer"></a>
           </div>
         </li>
       </ul></a>
 
-      <a href="https://github.com/Paulo110998/Web_API_streaming" target="_blank"><ul className="card-list">
+      <a href="https://github.com/Paulo110998/Web_API_streaming" target="_blank" rel="noreferrer"><ul className="card-list">
         <li className="list-cards" >
-          <div class="card">
+          <div className="card">
             <br />
             <img src={Dotnet} alt="" />
             <p className="descriçao1" ><b>Web API Streaming</b></p>
@@ -159,15 +128,15 @@ function Projetos() {
             <p className="descriçao5">Stacks:</p>
             <p className="descriçao6" ><TbBrandCSharp /> <DiDotnet /> <AiFillGithub />  <BsGit /> <GrMysql /> </p>
             <br />
-            <a href="https://github.com/Paulo110998/Music_api_consumption.git" target="_blank"></a>
+            <a href="https://github.com/Paulo110998/Music_api_consumption.git" target="_blank" rel="noreferrer"></a>
           </div>
         </li>
       </ul></a>
 
 
-      <a href="https://jadsonbitencourtt.com.br/" target="_blank"><ul className="card-list">
+      {/* <a href="https://jadsonbitencourtt.com.br/" target="_blank"><ul className="card-list">
         <li className="list-cards" >
-          <div class="card">
+          <div className="card">
             <br />
             <br />
             <h3>Jadson Bittencourt</h3>
@@ -182,7 +151,7 @@ function Projetos() {
             <a href="https://jadsonbitencourtt.com.br/" target="_blank"></a>
           </div>
         </li>
-      </ul></a>
+      </ul></a> */}
 
     </div>
   )

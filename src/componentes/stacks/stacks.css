@@ -1,0 +1,71 @@
+@media (max-width: 768px) {
+
+    .h1-stacks {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card-list {
+        margin-left: 5.6%;
+        margin-right: auto
+    }
+
+    .list-cards {
+        max-width: 100%;
+        height: auto;
+
+    }
+
+
+}
+
+.stacks {
+    width: 100%;
+    margin-top: -120px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.h1-stacks {
+    margin-top: 50px;
+    margin-right: 50%;
+}
+
+.card-list {
+    padding: 15px;
+    width: 90%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border: solid 10px transparent;
+    background: rgba(17, 17, 17, 0.6);
+    box-shadow: 0 1.1rem 1rem rgba(230, 213, 213, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+    
+
+
+}
+
+.list-card{
+    display: inline-block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 5px;
+
+    
+    
+   
+
+}
+li img {
+    width: 81px;
+    height: 75px;
+}

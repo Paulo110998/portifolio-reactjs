@@ -1,21 +1,21 @@
-import Html from "./img/stacks/html5.png"
-import Css from "./img/stacks/css.png"
-import JS from "./img/stacks/JS.png"
-import ReactFrame from "./img/stacks/react.png"
-import Bootstrap from "./img/stacks/bootstrap.png"
-import Git from "./img/stacks/git.png"
-import Github from "./img/stacks/github.png"
-import Python from "./img/stacks/python.png"
-import Django from "./img/stacks/django.png"
-import Csharp from "./img/stacks/csharp.png"
-import Dotnet from "./img/stacks/unnamed.png"
-import Sql from "./img/stacks/sql-server.png"
-import Mysql from "./img/stacks/mysql.png"
-import DigitalOcean from "./img/stacks/digitalocean.png"
-import Heroku from "./img/stacks/heroku.png"
-import Vscode from "./img/stacks/vscode.png"
-import VisualStudio from "./img/stacks/visualstudio.png"
-
+import Html from "../img/stacks/html5.png"
+import Css from "../img/stacks/css.png"
+import JS from "../img/stacks/JS.png"
+import ReactFrame from "../img/stacks/react.png"
+import Bootstrap from "../img/stacks/bootstrap.png"
+import Git from "../img/stacks/git.png"
+import Github from "../img/stacks/github.png"
+import Python from "../img/stacks/python.png"
+import Django from "../img/stacks/django.png"
+import Csharp from "../img/stacks/csharp.png"
+import Dotnet from "../img/stacks/dotnet_logo.png"
+import Sql from "../img/stacks/sql-server.png"
+import Mysql from "../img/stacks/mysql.png"
+import DigitalOcean from "../img/stacks/digitalocean.png"
+import Heroku from "../img/stacks/heroku.png"
+import Vscode from "../img/stacks/vscode.png"
+import VisualStudio from "../img/stacks/visualstudio.png"
+import "./stacks.css"
 import { BiCodeBlock } from 'react-icons/bi'
 
 import ScrollReveal from "scrollreveal";
@@ -30,8 +30,6 @@ ScrollReveal().reveal('.tagline', { delay: 200 });
 function Stacks() {
   return (
     <div className="stacks">
-      <br />
-      <br />
       <h1 className="h1-stacks">Stacks <BiCodeBlock /> </h1>
       <br />
       <ul className="card-list">
@@ -44,16 +42,16 @@ function Stacks() {
           <p>Css3</p>
         </li>
         <li className="list-card">
+          <img src={Bootstrap} alt="" />
+          <p>Bootstrap</p>
+        </li>
+        <li className="list-card">
           <img src={JS} alt="" />
           <p>JavaScript</p>
         </li>
         <li className="list-card">
           <img src={ReactFrame} alt="" />
           <p>React.js</p>
-        </li>
-        <li className="list-card">
-          <img src={Bootstrap} alt="" />
-          <p>Bootstrap</p>
         </li>
         <li className="list-card">
           <img src={Git} alt="" />
@@ -71,6 +69,7 @@ function Stacks() {
           <img src={Django} alt="" />
           <p>Django</p>
         </li>
+       
         <li className="list-card">
           <img src={Csharp} alt="" />
           <p>C#</p>
@@ -81,7 +80,7 @@ function Stacks() {
         </li>
         <li className="list-card">
           <img src={Sql} alt="" />
-          <p>SQL</p>
+          <p>SQL Language</p>
         </li>
         <li className="list-card">
           <img src={Mysql} alt="" />
@@ -95,7 +94,7 @@ function Stacks() {
           <img src={Heroku} alt="" />
           <p>Heroku</p>
         </li>
-        <br />
+     
         <li className="list-card">
           <img src={Vscode} alt="" />
           <p>VSCode</p>
