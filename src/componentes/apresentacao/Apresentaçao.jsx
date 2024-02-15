@@ -1,5 +1,5 @@
 import Dev from "../img/dev..-removebg-preview.png";
-import Circulo from '../img/circulo.png'
+
 import "./apresentaçao.css"
 
 
@@ -38,9 +38,7 @@ function Apresentaçao() {
                 <br />
 
             </div>
-            <div>
-                <img className="circulo" src={Circulo} alt="" />
-            </div>
+            
 
 
 

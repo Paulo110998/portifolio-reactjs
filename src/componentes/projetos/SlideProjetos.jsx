@@ -20,6 +20,8 @@ import "swiper/css/autoplay"
 import Projeto1 from "./slides/projeto1"
 import Projeto2 from "./slides/projeto2"
 import Projeto3 from "./slides/projeto3"
+import Projeto4 from "./slides/projeto4"
+import Projeto5 from "./slides/projeto5";
 
 import "./projetos.css"
 
@@ -27,14 +29,18 @@ export default function SlideProjetos() {
     const [slidePerview, setSlidePerview] = useState(2);
 
     var slide1 = <Projeto3 />;
-    var slide2 = <Projeto2 />;
+    var slide2 = <Projeto4 />;
     var slide3 = <Projeto1 />;
+    var slide4 = <Projeto2 />;
+    var slide5 = <Projeto5 />;
 
     // Array dos objetos/imagens
     const data = [
         { id: 1, image: slide1 },
         { id: 2, image: slide2 },
         { id: 3, image: slide3 },
+        { id: 4, image: slide4 },
+        { id: 5, image: slide5 },
 
     ]
 
@@ -60,14 +66,12 @@ export default function SlideProjetos() {
         }
 
     }, [])
-    
+
     return (
         <div>
-            <br />
-            <br />
             <h1>Projects</h1>
             <div className="projeto-slide" id="projeto-slide">
-                <Swiper                    
+                <Swiper
                     autoplay={{ delay: 10000, disableOnInteraction: false }}
                     slidesPerView={slidePerview}
                     pagination={{ clickable: true }}

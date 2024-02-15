@@ -16,12 +16,15 @@
 
     }
 
-
+    .circulo {
+        max-width: 40%;
+        width: 10%;
+    }
 }
 
 .stacks {
     width: 100%;
-    margin-top: -120px;
+    margin-top: -20px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -46,26 +49,26 @@
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
-   
-    
-    
-
 
 }
 
-.list-card{
+.list-card {
     display: inline-block;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
     margin-left: 5px;
-
-    
-    
-   
-
 }
+
 li img {
     width: 81px;
-    height: 75px;
+    
+}
+
+.circulo {
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 60%;
+    background-image: url("./img/circulo.png");
+    animation: load 5s infinite linear;
 }

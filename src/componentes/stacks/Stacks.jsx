@@ -9,6 +9,7 @@ import Python from "../img/stacks/python.png"
 import Django from "../img/stacks/django.png"
 import Csharp from "../img/stacks/csharp.png"
 import Dotnet from "../img/stacks/dotnet_logo.png"
+import Rest from "../img/stacks/REST.png"
 import Sql from "../img/stacks/sql-server.png"
 import Mysql from "../img/stacks/mysql.png"
 import DigitalOcean from "../img/stacks/digitalocean.png"
@@ -18,13 +19,7 @@ import VisualStudio from "../img/stacks/visualstudio.png"
 import "./stacks.css"
 import { BiCodeBlock } from 'react-icons/bi'
 
-import ScrollReveal from "scrollreveal";
-
-ScrollReveal({ reset: true });
-
-ScrollReveal().reveal('.stacks', { delay: 370 });
-ScrollReveal().reveal('.tagline', { delay: 200 });
-
+import Circulo from '../img/art.png'
 
 
 function Stacks() {
@@ -69,7 +64,7 @@ function Stacks() {
           <img src={Django} alt="" />
           <p>Django</p>
         </li>
-       
+
         <li className="list-card">
           <img src={Csharp} alt="" />
           <p>C#</p>
@@ -77,6 +72,10 @@ function Stacks() {
         <li className="list-card">
           <img src={Dotnet} alt="" />
           <p>Dotnet</p>
+        </li>
+        <li className="list-card">
+          <img src={Rest} alt="" />
+          <p>REST API</p>
         </li>
         <li className="list-card">
           <img src={Sql} alt="" />
@@ -94,7 +93,7 @@ function Stacks() {
           <img src={Heroku} alt="" />
           <p>Heroku</p>
         </li>
-     
+
         <li className="list-card">
           <img src={Vscode} alt="" />
           <p>VSCode</p>
@@ -103,8 +102,14 @@ function Stacks() {
           <img src={VisualStudio} alt="" />
           <p>Visual Studio</p>
         </li>
-
       </ul>
+
+      <div>
+        <img className="circulo" src={Circulo} alt="" />
+      </div>
+
+
+      
 
 
 
