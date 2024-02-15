@@ -24,7 +24,7 @@ function Apresentaçao() {
             <div className="quadrado" >
 
                 <h1 className="headline" >Paulo Alves</h1>
-                <p className="full">Desenvolvedor de Software</p>
+                <p className="full">Software Developer</p>
                 <br />
                 <h3 className="headline">Welcome to my portfolio; 
                 I'll tell you a little about myself. I am a Software Developer
