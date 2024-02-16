@@ -19,7 +19,7 @@ function Footer() {
                     </ul>
                     <br />
                     <ul>
-                        <li><a href="https://react.dev/">Site desenvolvido em React <BiLogoReact /> </a></li>
+                        <li><a href="https://react.dev/">Website developed in React.js<BiLogoReact /> </a></li>
                     </ul>
                     <ul className='footer_list'>
                         <li><a href="#"></a></li>
