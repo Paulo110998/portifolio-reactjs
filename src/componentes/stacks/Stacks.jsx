@@ -18,6 +18,7 @@ import Vscode from "../img/stacks/vscode.png"
 import VisualStudio from "../img/stacks/visualstudio.png"
 import "./stacks.css"
 import { BiCodeBlock } from 'react-icons/bi'
+import Codando from "../img/codando.jpg"
 
 import Circulo from '../img/art.png'
 
@@ -103,13 +104,52 @@ function Stacks() {
           <p>Visual Studio</p>
         </li>
       </ul>
+      <br />
+      <br />
+      <br />
+      <br />
+      <h1>Work Experiences</h1>
+      <div className="experiencias">
+        <h3>* Freelancer - Software Developer <br />Jun 2021 - Dez 2023</h3>
 
+        <p>I worked for the company Next Opinion in the development
+          of the “Invest 360” platform, using technologies such as
+          Django, MySql, Html5&Css3, Javascript and cloud deployment
+          at digitalocean.</p>
+        <p>I have undertaken my personal project “Your
+          Projects”, which is a web application, developed along the
+          fullstack, with Django, MySql, Bootstrap and cloud deployment
+          at DigitalOcean.</p>
+        <p>Developed and developed websites in React.js for clients
+          specific, with deployment on vercel.</p>
+        <br />
+
+        <h3>* NextOpinion - Software Developer <br />
+          Current</h3>
+        <p>I have worked with .NET, React.js and Django, contributing to
+          joint development of web applications that use
+          REST API, API and database consumption.
+        </p>
+        <p> I developed and maintained the platform
+          “Invest 360º”, using Django, MySql, Html5&Css3 and
+          JavaScript</p>
+
+      </div>
+      <div className="experiencias">
+        <img src={Codando} alt="" />
+        <br />
+        <br />   
+         
+      </div>
       <div>
-        <img className="circulo" src={Circulo} alt="" />
+        <img className="circulo"  id="circulo" src={Circulo} alt="" />
       </div>
 
 
-      
+
+
+
+
 
 
 

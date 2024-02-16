@@ -6,7 +6,8 @@
   }
 
   .quadrado img {
-    max-width: 101%;
+    max-width: 100%;
+    
   }
 
   .circulo {
@@ -28,7 +29,7 @@
 .quadrado img {
   width: 370px;
   height: 380px;
-  border-radius: 200px;
+  border-radius: 50px;
   margin-top: 90px;
   box-shadow: 0 1.1rem 1rem rgba(230, 213, 213, 0.5);
   backdrop-filter: blur(0.1px);
@@ -40,8 +41,6 @@
 .quadrado h3,
 h2 {
   text-align: justify;
-
-
 
 }
 

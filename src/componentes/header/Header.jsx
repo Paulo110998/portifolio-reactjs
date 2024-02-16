@@ -33,7 +33,7 @@ const Header = () => {
             Paulo Alves
           </li></a> */}
             <li><a href="#home" onClick={() => scrollToSection('home')} >Home</a></li>
-            <li><a href="#stacks" onClick={() => scrollToSection('stacks')}>Technologies</a></li>
+            <li><a href="#stacks" onClick={() => scrollToSection('stacks')}>Techs & Works</a></li>
             <li><a href="#projetos" onClick={() => scrollToSection('projetos')}>Projects</a></li>
             <li><a href="#contato" onClick={() => scrollToSection('contato')}>Socials</a></li>  
             <li><a href="https://www.linkedin.com/in/paulo-alves-76a9b6205/"><IoLogoLinkedin /></a> </li>

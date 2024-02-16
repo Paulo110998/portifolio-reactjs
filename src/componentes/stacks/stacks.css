@@ -16,9 +16,23 @@
 
     }
 
-    .circulo {
-        max-width: 40%;
-        width: 10%;
+    .experiencias {
+        max-width: 100%;
+    }
+    
+
+    .experiencias p {
+        max-width: 100%;
+    }
+
+    .experiencias img {
+        max-width: 95%;
+    }
+
+    #circulo {
+        max-width: 90%;
+       
+        margin-top: -60px;
     }
 }
 
@@ -62,13 +76,43 @@
 
 li img {
     width: 81px;
-    
+
+}
+
+.experiencias {
+    border: 5px solid transparent;
+    width: 620px;
+    height: 390px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.experiencias h3 {
+    color: white;
+    font-size: 23px;
+
+}
+
+.experiencias p {
+    text-align: justify;
+    font-size: 18px;
+    width: 600px;
+    margin-top: 10px;
+
+}
+
+.experiencias img {
+    width: 580px;
+    border-radius: 10px;
+    border: solid 2px black;
+    box-shadow: 0 1.1rem 1rem rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(0.3px);
 }
 
 .circulo {
     width: 250px;
-    margin-top: 50px;
-    margin-left: 60%;
+    margin-top: 35px;
+    margin-left: auto;
     background-image: url("./img/circulo.png");
     animation: load 5s infinite linear;
 }

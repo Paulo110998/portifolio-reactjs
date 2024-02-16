@@ -69,6 +69,7 @@ export default function SlideProjetos() {
 
     return (
         <div>
+            <br/>
             <h1>Projects</h1>
             <div className="projeto-slide" id="projeto-slide">
                 <Swiper
