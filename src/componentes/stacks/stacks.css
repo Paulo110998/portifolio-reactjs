@@ -10,7 +10,7 @@
         margin-right: auto
     }
 
-    .list-cards {
+    #list-cards {
         max-width: 100%;
         height: auto;
 
@@ -50,8 +50,8 @@
 }
 
 .card-list {
-    padding: 15px;
-    width: 90%;
+    padding: 10px;
+    width: 95%;
     display: inline-block;
     justify-content: center;
     align-items: center;
@@ -71,7 +71,11 @@
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    margin-left: 5px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding: 3px;
+    
+   
 }
 
 li img {

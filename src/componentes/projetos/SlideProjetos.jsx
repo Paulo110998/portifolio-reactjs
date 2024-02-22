@@ -1,7 +1,5 @@
 import { useState, useEffect } from "react"
 
-
-
 // importando a biblioteca swiper  
 import { Swiper, SwiperSlide } from "swiper/react"
 import { register } from "swiper/element/bundle"
